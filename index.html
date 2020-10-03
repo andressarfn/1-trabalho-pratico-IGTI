@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho Prático</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="flex-column">
+        <ul>
+          <li class="flex-row">
+            <span class="label"> (R) Vermelho:</span>
+            <input
+              class="range"
+              type="range"
+              id="rangeRed"
+              min="0"
+              max="255"
+              value="0"
+            />
+            <input
+              type="number"
+              disabled
+              id="inputRed"
+              min="0"
+              max="255"
+              value="0"
+            />
+          </li>
+          <li class="flex-row">
+            <span class="label"> (G) Verde:</span>
+            <input
+              class="range"
+              type="range"
+              id="rangeGreen"
+              min="0"
+              max="255"
+              value="0"
+            />
+            <input
+              type="number"
+              disabled
+              id="inputGreen"
+              min="0"
+              max="255"
+              value="0"
+            />
+          </li>
+          <li class="flex-row">
+            <span class="label"> (B) Azul:</span>
+            <input
+              class="range"
+              type="range"
+              id="rangeBlue"
+              min="0"
+              max="255"
+              value="0"
+            />
+            <input
+              type="number"
+              disabled
+              id="inputBlue"
+              min="0"
+              max="255"
+              value="0"
+            />
+          </li>
+        </ul>
+        <div class="square" id="square"></div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
